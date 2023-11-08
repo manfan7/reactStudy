@@ -1,0 +1,19 @@
+.usersphoto {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.userscont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.selectedPage {
+  font-weight: 700;
+  color: gold;
+}
+.paginate {
+  cursor: pointer;
+}

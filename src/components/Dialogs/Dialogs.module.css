@@ -1,0 +1,43 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+  padding: 10px;
+}
+.dialog {
+}
+.dialog a {
+  color: black;
+  text-decoration: none;
+}
+.dialog a.active {
+  color: gold;
+}
+.messages {
+  padding: 10px;
+}
+.message {
+}
+.MessageTextArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  align-items: flex-end;
+  margin: auto;
+  gap: 20px;
+}
+.MessageTextArea button {
+  padding: 10px 35px;
+  background-color: deeppink;
+  margin-bottom: 20px;
+}
+#newArea {
+  border-radius: 16px;
+  background-color: transparent;
+  border: 3px solid deeppink;
+  color: deeppink;
+  font-size: 18px;
+  padding: 10px;
+}

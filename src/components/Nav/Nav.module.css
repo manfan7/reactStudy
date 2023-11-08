@@ -1,0 +1,38 @@
+.nav {
+  grid-area: n;
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 2px;
+}
+/* .item {
+  color: #fff;
+} */
+.item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.item a.active {
+  color: gold;
+}
+
+a:hover {
+  color: black;
+}
+.itemfriends {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.itemFr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

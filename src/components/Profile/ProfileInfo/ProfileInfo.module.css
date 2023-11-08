@@ -1,0 +1,25 @@
+.wrap img {
+  width: 150px;
+  object-fit: contain;
+}
+.wrap {
+  padding: 10px;
+}
+.usercontent {
+  display: flex;
+  gap: 2%;
+  border: 3px solid purple;
+  border-radius: 8px;
+  padding: 5px;
+}
+.usercontent img {
+  object-fit: contain;
+}
+.usercontent_job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.usercontent_job img {
+  width: 40px;
+}
